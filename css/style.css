@@ -1,0 +1,213 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.novis {
+	visibility: hidden;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.in {
+	display: inline-block;
+}
+
+.noselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.noclick {
+	pointer-events: none;
+}
+
+.upper {
+		text-transform: uppercase;
+}
+
+.blue {
+	color: #1B75BB;
+}
+
+.green {
+	color: #47A447;
+}
+
+.dblue {
+	color: #225D89 !important;
+}
+
+	.bbars {
+		margin-left: 20px;
+	}
+	
+	.sync {
+		margin-right: 5px;
+	}
+
+.cur {
+	cursor: pointer;
+}
+
+.big {
+	font-size: 22px;
+}
+
+.bigger {
+	font-size: 32pt;
+}
+
+.hugeBtn {
+	padding: 25px 50px !important;
+	font-size: 22px !important;
+}
+
+.faint {
+	opacity: 0.5;
+}
+
+.cent {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.navbar-brand {
+	margin-top: -5px;
+}
+
+.bMark {
+	cursor: move;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+}
+
+	.bMark:active {
+		cursor: move;
+		cursor: -webkit-grabbing;
+		cursor: -moz-grabbing;
+	}
+	
+.bookWrap {
+	margin-top: 70px;
+}
+
+.done {
+	margin-top: 15px;
+}
+
+.bmktext {
+	pointer-events: none;
+}
+
+.input-lg {
+	border: 1px solid #EEE;
+	background: #EEE;
+}
+
+	.input-lg:hover {
+		border: 1px solid #DDD;
+		background: #DDD;
+	}
+	
+.input-lg.dark {
+	border: 1px solid #DDD;
+	background: #DDD;
+}
+
+	.input-lg.dark:hover {
+		border: 1px solid #CCC;
+		background: #CCC;
+	}
+
+.doneBtn {
+	margin-bottom: 6px;
+}
+
+.frame {
+	width: 60%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.animated {
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+.codeout {
+	width: 110px !important;
+}
+
+.dis {
+	cursor: context-menu !important;
+}
+
+.noteinput {
+	width: 600px !important;
+}
+
+.dropInst {
+	margin-top: 10px;
+}
